@@ -18,7 +18,7 @@ namespace SketchWebService.Controllers
         private readonly ISketchRepository _sketchRepository;
         public SketchController(ISketchRepository sketchRepository)
         {
-            _sketchRepository = sketchRepository; //ok
+            _sketchRepository = sketchRepository;
         }
 
         [HttpGet("loggedUser/{username}")]
